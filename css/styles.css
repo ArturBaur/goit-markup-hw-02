@@ -10,7 +10,54 @@ body {
 }
 
 .btn:hover,
-:focus {
-  color: #ffffff;
+.btn:focus {
+  color: #fff;
   background-color: #2196f3;
+}
+
+.menu-list-link:hover,
+.menu-list-link:focus {
+  color: #2196f3;
+}
+
+.menu-link {
+  color: #757575;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: #2196f3;
+}
+
+.footer-bg {
+  background: #2f303a;
+}
+
+.bg {
+  background: #2f303a;
+}
+
+.footer-bg-location: {
+  color: #fff;
+  font-size: 14px;
+  line-height: 2;
+  font-style: normal;
+  letter-spacing: 0.03em;
+}
+
+.footer-bg-location:hover,
+.footer-bg-location:hover {
+  color: #2196f3;
+}
+
+.footer-link {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  color: #2196f3;
 }

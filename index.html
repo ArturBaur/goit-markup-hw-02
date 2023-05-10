@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
@@ -16,23 +16,27 @@
   <body>
     <header>
       <!--Menu-->
-      <section>
+      <section class="menu">
         <a href="#"><h3>WebStudio</h3></a>
         <nav>
-          <ul class="menu">
-            <li><a href="./index.html">Agencja</a></li>
-            <li><a href="./portfolio.html">Portfolio</a></li>
-            <li><a href="#">Kontakt</a></li>
+          <ul class="list">
+            <li><a class="menu-list-link" href="./index.html">Agencja</a></li>
+            <li>
+              <a class="menu-list-link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li><a class="menu-list-link" href="#">Kontakt</a></li>
           </ul>
         </nav>
-        <a href="tel:+48111111111">+48 111 111 111</a>
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <a class="menu-link" href="tel:+48111111111">+48 111 111 111</a>
+        <a class="menu-link" href="mailto:info@devstudio.com"
+          >info@devstudio.com</a
+        >
       </section>
       <!--Bg-->
-      <section>
+      <section class="bg">
         <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+        <button class="btn" type="button">Zamów usługę</button>
       </section>
-      <button class="btn" type="button">Zamów usługę</button>
     </header>
 
     <main>
@@ -151,7 +155,7 @@
       </section>
     </main>
 
-    <footer>
+    <footer class="footer-bg">
       <section>
         <a href="#"><h3>WebStudio</h3></a>
         <!--Address-->
@@ -160,14 +164,21 @@
           <ul>
             <li>
               <a
+                class="footer-bg-location"
                 href="https://goo.gl/maps/5ipWP5TEXiPq4uvU9"
                 target="_blank"
                 rel="nofollow noopener noreferrer"
                 >m. Warszawa, Aleje Jerozolimskie 21</a
               >
             </li>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+            <li>
+              <a class="menu-link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="menu-link" href="tel:+48111111111">+48 111 111 111</a>
+            </li>
           </ul>
         </address>
       </section>
