@@ -37,11 +37,10 @@ body {
   background: #2f303a;
 }
 
-.footer-bg-location: {
+.footer-bg-location {
   color: #fff;
   font-size: 14px;
   line-height: 2;
-  font-style: normal;
   letter-spacing: 0.03em;
 }
 
